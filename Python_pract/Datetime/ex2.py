@@ -64,11 +64,18 @@ print("Local version date and time ===> ",x.strftime("%c"))
 print("century version ===> ",x.strftime("%C"))
 
 #23.%x  ---- Local version of date
+print("Local version date ===>",x.strftime("%x"))
 #24.%X  ---- Local version of time
-#25.%%
+print("Local version time ===>",x.strftime("%X"))
+
+#25.%%  ---- A % character
+print("A % character ===> ",x.strftime("%%"))
 #26.%G
+print("ISO 8601 year ===> ",x.strftime("%G"))
 #27.%u
+print("ISO 8601 weekday(1-7) ===> ",x.strftime("%u"))
 #28.%V
+print("ISO 8601 weeknumber(01-53) ===> ",x.strftime("%V"))
 
 
 
