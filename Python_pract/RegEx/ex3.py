@@ -83,6 +83,109 @@ else:
     print("No match")
 print('---------------------------')
 
+# txt = "The rain in spain"
+txt = "I am James Bond 007"
+
+# check if the string contains any digits from (0-9)
+
+x = re.findall("\d",txt)
+
+print(x)
+
+if x:
+    print("Yes, there is a match")
+else:
+    print("No match")
+
+print('---------------------------')
+# txt = "The rain in spain"
+txt = "I am James Bond 007"
+
+# check if the string DOES NOT contains digits
+
+x = re.findall("\D",txt)
+
+print(x)
+
+if x:
+    print("Yes, there is a match")
+else:
+    print("No match")
+
+print('---------------------------')
+txt = "I am James Bond 007"
+
+# check if the string contains space character
+
+x = re.findall("\s",txt)
+
+print(x)
+
+if x:
+    print("Yes, there is a match")
+else:
+    print("No match")
+
+print('---------------------------')
+
+txt = "I am James Bond 007"
+
+# check if the string DOES NOT contains space character
+
+x = re.findall("\S",txt)
+
+print(x)
+
+if x:
+    print("Yes, there is a match")
+else:
+    print("No match")
+
+print('---------------------------')
+
+txt = "I am James Bond 007"
+
+# check if the string  contains any type character
+
+x = re.findall("\w",txt)
+
+print(x)
+
+if x:
+    print("Yes, there is a match")
+else:
+    print("No match")
+
+print('---------------------------')
+
+txt = "I am James Bond 007"
+# check if the string DOES NOT contains any type character
+
+x = re.findall("\W",txt)
+
+print(x)
+
+if x:
+    print("Yes, there is a match")
+else:
+    print("No match")
+print('---------------------------')
+
+txt = "I am James Bond 007 and lives in london"
+# check if the string DOES NOT contains any type character
+
+x = re.findall("london\Z",txt)
+
+print(x)
+
+if x:
+    print("Yes, there is a match")
+else:
+    print("No match")
+
+
+
+
 
 
 
