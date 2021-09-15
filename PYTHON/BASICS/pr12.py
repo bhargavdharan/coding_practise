@@ -24,3 +24,5 @@ def primeCheck(a):
 a = int(input("Enter an input number:"))
 
 primeCheck(a)
+
+
