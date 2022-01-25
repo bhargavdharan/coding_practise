@@ -12,6 +12,10 @@ class code1 {
     }
 }
 
+// output
+// 2
+// Yes
+
 class code2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -23,6 +27,10 @@ class code2 {
         }
     }
 }
+
+// output
+// 25
+// yes
 
 class code3 {
     public static void main(String[] args) {
@@ -36,6 +44,10 @@ class code3 {
     }
 }
 
+// output
+// 100
+// yes
+
 class code4 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -47,6 +59,10 @@ class code4 {
         }
     }
 }
+
+// output
+// 15
+// yes
 
 class code5 {
     public static void main(String[] args) {
@@ -60,6 +76,10 @@ class code5 {
     }
 }
 
+// output
+// 105
+// yes
+
 class code6 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -71,6 +91,10 @@ class code6 {
         }
     }
 }
+
+// output
+// 56
+// yes
 
 class code7 {
     public static void main(String[] args) {
@@ -84,6 +108,10 @@ class code7 {
     }
 }
 
+// output
+// 146
+// yes
+
 class code8 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -96,17 +124,25 @@ class code8 {
     }
 }
 
+// output
+// 140
+// yes
+
 class code9 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
-        if (n >= 100 && n <= 999 && n%10==0 && n%2==0 && n%5==0) {
+        if (n >= 100 && n <= 999 && n % 10 == 0 && n % 2 == 0 && n % 5 == 0) {
             System.out.println("Yes");
         } else {
             System.out.println("No");
         }
     }
 }
+
+// output
+// 120
+// yes
 
 class code10 {
     public static void main(String[] args) {
@@ -119,3 +155,7 @@ class code10 {
         }
     }
 }
+
+// output
+// 159
+// No
