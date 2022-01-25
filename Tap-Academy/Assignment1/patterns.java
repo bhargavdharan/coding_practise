@@ -1,5 +1,4 @@
-package Java.Assignment1;
-
+package Assignment1;
 
 // pattern-1
 

@@ -1,3 +1,6 @@
+package Java.Datatypes;
+
+
 class Example1{
     public static void main(String[] args) {
         byte a; // it stores inforamtion in the range between -128 bits to 127 bits
