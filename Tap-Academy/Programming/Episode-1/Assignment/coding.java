@@ -62,13 +62,13 @@ class code5 {
         Scanner scan = new Scanner(System.in);
         int fah = scan.nextInt();
         float cel = ((fah - 32) * 5) / 9;
-        System.out.println(cel);
+        System.out.println(String.format("%.4f",cel));
     }
 }
 
 // output
 // 56
-// 13.0
+// 13.0000
 
 class code6 {
     public static void main(String[] args) {
