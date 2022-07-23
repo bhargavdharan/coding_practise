@@ -1,4 +1,4 @@
-package OnlineCoding.Strings;
+// package OnlineCoding.Strings;
 
 
 import java.util.Scanner;

@@ -1,0 +1,1 @@
+A named location used to store related information
